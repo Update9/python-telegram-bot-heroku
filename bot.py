@@ -8,7 +8,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     level=logging.INFO)
 
 logger = logging.getLogger(__name__)
-TOKEN = 'YOURTELEGRAMBOTTOKEN'
+TOKEN = '5103049162:AAE49wuhia1kV7X81wjujdVLbrMOGWw6BxM'
 
 # Define a few command handlers. These usually take the two arguments update and
 # context. Error handlers also receive the raised TelegramError object in error.
@@ -50,10 +50,10 @@ def main():
 
     # Start the Bot
     updater.start_webhook(
-        listen="0.0.0.0",
+        listen="0.0.0.0",https
         port=int(PORT),
         url_path=TOKEN,
-        webhook_url='https://yourherokuappname.herokuapp.com/' + TOKEN
+        webhook_url='https://qiioq.herokuapp.com/' + 5103049162:AAE49wuhia1kV7X81wjujdVLbrMOGWw6BxM 
     )
 
     # Run the bot until you press Ctrl-C or the process receives SIGINT,
